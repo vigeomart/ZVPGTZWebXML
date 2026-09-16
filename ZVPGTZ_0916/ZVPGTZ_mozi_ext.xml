@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horror">
+        <rendezo id="nzk">
+            <nev>Riley Scott</nev>
+            <telefonszam>+3641323123</telefonszam>
+        </rendezo>
+        <szinesz id="5jk" nev="Martin"></szinesz>
+        <szinesz id="q">
+            <gyerekszinesz/>
+            <musicalszinesz/>
+            <szinkronszinesz/>
+        </szinesz>
+        <iro>
+            <nev>J. R. R. Tolkien</nev>
+            <datum>29 July 1954</datum>
+        </iro>
+    </film>
+</mozi>
