@@ -1,0 +1,28 @@
+table{
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+th{
+    background-color: lightcyan;
+    border-radius: 10px;
+}
+.eloadas{
+    background-color: lightcoral;
+}
+.gyakorlat{
+    background-color: lightgreen;
+}
+td{
+    border: solid 1px grey;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
+.leiras, .leiras .eloadas .gyakorlat{
+    display: inline-block;
+    margin-top: 5px;
+}

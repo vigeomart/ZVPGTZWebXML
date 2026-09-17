@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Konferencia>
+    <Cim id="lego">Lego továbbfejlesztés</Cim>
+    <Helyszin>New York</Helyszin>
+    <Datum>2026.12.15.</Datum>
+    <Eloado>
+        <Nev>Niels B. Christiansen</Nev>
+        <Adoszam>DK-3400</Adoszam>
+        <Lakcim>Billund, Denmark</Lakcim>
+    </Eloado>
+    <Hallgatók>
+        <hallgato id = "1">
+            <Nev>Kis József</Nev>
+            <Lakcim>Szeged, Pirittyó utca 1</Lakcim>
+        </hallgato>
+    </Hallgatók>
+
+    <Cim id="fizika">Kvantumfizika</Cim>
+    <Helyszin>Dublin</Helyszin>
+    <Datum>1700.01.04</Datum>
+    <Eloado>
+        <Nev>Isaac Newton</Nev>
+        <Adoszam>123456789</Adoszam>
+        <Lakcim>Great Britain, Manor</Lakcim>
+    </Eloado>
+    <Hallgatók>
+        <hallgato id = "1">
+            <Nev>Johannes Kepler</Nev>
+            <Lakcim>Gyöngyös, Hungary</Lakcim>
+        </hallgato>
+    </Hallgatók>
+</Konferencia>

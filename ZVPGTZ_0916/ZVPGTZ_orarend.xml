@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<html>
+    <ora id="GEIAL331-B2-00" tipus="eloadas">
+        <targy>Web technológiák 1.</targy>
+        <ido>
+            <nap>Hétfő</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </ido>
+        <helyszin>V.előadó</helyszin>
+        <oktato>Dr. Agárdi Anita</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="GEIAL331-B2-01" tipus="gyakorlat">
+        <targy>Web technológiák 1.</targy>
+        <ido>
+            <nap>Hétfő</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </ido>
+        <helyszin>In/101</helyszin>
+        <oktato>Dr. Agárdi Anita</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="GEIAK130-B2-00" tipus="eloadas">
+        <targy>Mesterséges intelligencia alapok</targy>
+        <ido>
+            <nap>Kedd</nap>
+            <tol>10</tol>
+            <ig>12</ig>
+        </ido>
+        <helyszin>XXXII.előadó</helyszin>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+    
+    <ora id="GEIAK130-B2-01" tipus="gyakorlat">
+        <targy>Mesterséges intelligencia alapok</targy>
+        <ido>
+            <nap>Kedd</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </ido>
+        <helyszin>XXXII.előadó</helyszin>
+        <oktato>Fazekas Levente Áron</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="GEMAK234-B2-00" tipus="eloadas">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <ido>
+            <nap>Kedd</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </ido>
+        <helyszin>XXX.előadó</helyszin>
+        <oktato>Dr. Házy Attila</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="GEMAK234-B2-01" tipus="gyakorlat">
+        <targy>Algoritmusok és vizsgálatuk</targy>
+        <ido>
+            <nap>Kedd</nap>
+            <tol>16</tol>
+            <ig>18</ig>
+        </ido>
+        <helyszin>XXX.előadó</helyszin>
+        <oktato>Dr. Házy Attila</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="GEIAL32K-B2-00" tipus="eloadas">
+        <targy>Webes adatkezelő környezetek</targy>
+        <ido>
+            <nap>Szerda</nap>
+            <tol>8</tol>
+            <ig>10</ig>
+        </ido>
+        <helyszin>In/202</helyszin>
+        <oktato>Dr. Kovács László József</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="GEIAL32K-B2-01" tipus="gyakorlat">
+        <targy>Webes adatkezelő környezetek</targy>
+        <ido>
+            <nap>Szerda</nap>
+            <tol>12</tol>
+            <ig>14</ig>
+        </ido>
+        <helyszin>In/101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="GEIAL315-B2-00" tipus="eloadas">
+        <targy>Vállalati információs rendszerek fejlesztése</targy>
+        <ido>
+            <nap>Szerda</nap>
+            <tol>14</tol>
+            <ig>16</ig>
+        </ido>
+        <helyszin>In/103</helyszin>
+        <oktato>Dr. Sasvári Péter László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+
+    <ora id="GEIAL315-B2-01" tipus="gyakorlat">
+        <targy>Vállalati információs rendszerek fejlesztése</targy>
+        <ido>
+            <nap>Szerda</nap>
+            <tol>18</tol>
+            <ig>20</ig>
+        </ido>
+        <helyszin>In/103</helyszin>
+        <oktato>Dr. Sasvári Péter László</oktato>
+        <szak>Programtervező informatikus</szak>
+    </ora>
+</html>
