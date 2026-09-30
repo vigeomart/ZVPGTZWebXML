@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mozi [
+    <!ELEMENT mozi (film)*>
+
+    <!ELEMENT film (rendezo+, szinesz+, iro+)>
+    <!ELEMENT rendezo (nev+, telefonszam+)>
+    <!ELEMENT szinesz (gyerekszinesz*, musicalszinesz*, szinkronszinesz*)>
+    <!ELEMENT iro (nev, datum)>
+
+    <!ELEMENT nev (#PCDATA)>
+    <!ELEMENT telefonszam (#PCDATA)>
+    <!ELEMENT datum (#PCDATA)>
+
+    <!ELEMENT gyerekszinesz EMPTY>
+    <!ELEMENT musicalszinesz EMPTY>
+    <!ELEMENT szinkronszinesz EMPTY>
+
+    <!ATTLIST film
+        id ID #REQUIRED
+        mufaj (horror | romantikus | thriller) "horror"
+>
+
+    <!ATTLIST szinesz
+        id ID #REQUIRED
+        nev CDATA #IMPLIED
+>
+    <!ATTLIST rendezo id ID #REQUIRED>
+]>
+<mozi>
+    <film id="txn_nxm_2jb" mufaj="horror">
+        <rendezo id="nzk">
+            <nev>Riley Scott</nev>
+            <telefonszam>+3641323123</telefonszam>
+        </rendezo>
+        <szinesz id="j" nev="Martin"></szinesz>
+        <szinesz id="q">
+            <gyerekszinesz />
+            <musicalszinesz />
+            <szinkronszinesz />
+        </szinesz>
+        <iro>
+            <nev>J. R. R. Tolkien</nev>
+            <datum>29 July 1954</datum>
+        </iro>
+    </film>
+</mozi>

@@ -24,3 +24,4 @@
     id ID #REQUIRED
     nev CDATA #IMPLIED
 >
+<!ATTLIST rendezo id ID #REQUIRED>
