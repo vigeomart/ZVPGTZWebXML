@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT orarend (ora+)>
+<!ELEMENT ora (targy, ido, helyszin, oktato, szak)>
+<!ELEMENT ido (nap,tol,ig)>
+
+<!ATTLIST ora id ID #REQUIRED>
+<!ATTLIST ora tipus CDATA #IMPLIED >
+
+<!ELEMENT targy (#PCDATA)>
+<!ELEMENT helyszin (#PCDATA)>
+<!ELEMENT szak (#PCDATA)>
+<!ELEMENT oktato (#PCDATA)>
+
+<!ELEMENT nap (#PCDATA)>
+<!ELEMENT tol (#PCDATA)>
+<!ELEMENT ig (#PCDATA)>

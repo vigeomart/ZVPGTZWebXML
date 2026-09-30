@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<html>
+<!DOCTYPE orarend SYSTEM "../ZVPGTZ_0930/ZVPGTZ_orarend.dtd">
+
+<orarend>
     <ora id="GEIAL331-B2-00" tipus="eloadas">
         <targy>Web technológiák 1.</targy>
         <ido>
@@ -120,4 +122,4 @@
         <oktato>Dr. Sasvári Péter László</oktato>
         <szak>Programtervező informatikus</szak>
     </ora>
-</html>
+</orarend>

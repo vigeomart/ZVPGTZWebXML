@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<kurzusfelvetel tanev="2026" egyetem="ME">
+    <hallgato>
+        <hnev>Veres Martin</hnev>
+        <szulev>2006</szulev>
+        <szak>Programtervező informatikus</szak>
+    </hallgato>
+    <kurzusok>
+        <kurzus>
+            <kurzusnev>Webes adatkezelő környezetek</kurzusnev>
+            <kredit>5</kredit>
+            <hely>X.előadó</hely>
+            <idopont>14:00</idopont>
+            <oktato>Dr. Bednarik László</oktato>
+        </kurzus>
+    </kurzusok>    
+</kurzusfelvetel>
