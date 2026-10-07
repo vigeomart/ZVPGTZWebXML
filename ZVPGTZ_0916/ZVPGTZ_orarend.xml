@@ -2,7 +2,7 @@
 
 <!DOCTYPE orarend SYSTEM "../ZVPGTZ_0930/ZVPGTZ_orarend.dtd">
 
-<orarend>
+<orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="../ZVPGTZ_1007/ZVPGTZ_orarend.xsd">
     <ora id="GEIAL331-B2-00" tipus="eloadas">
         <targy>Web technológiák 1.</targy>
         <ido>
