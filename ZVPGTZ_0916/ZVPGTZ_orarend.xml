@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!DOCTYPE orarend SYSTEM "../ZVPGTZ_0930/ZVPGTZ_orarend.dtd">
+<!-- <!DOCTYPE orarend SYSTEM "../ZVPGTZ_0930/ZVPGTZ_orarend.dtd"> 
+ez pedig a dtd sémának a validáló kódja 
+-->
 
 <orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="../ZVPGTZ_1007/ZVPGTZ_orarend.xsd">
     <ora id="GEIAL331-B2-00" tipus="eloadas">

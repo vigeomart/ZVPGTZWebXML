@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE ZVPGTZ_kurzusfelvetel SYSTEM "../ZVPGTZ_0930/ZPVGTZ_kurzusfelvetel.dtd">
+<!-- <!DOCTYPE ZVPGTZ_kurzusfelvetel SYSTEM "../ZVPGTZ_0930/ZPVGTZ_kurzusfelvetel.dtd"> -->
 
-<ZVPGTZ_kurzusfelvetel tanev="2026" egyetem="ME">
+<ZVPGTZ_kurzusfelvetel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../ZVPGTZ_1007/ZVPGTZ_kurzusfelvetel.xsd" tanev="2026" egyetem="ME">
     <hallgato>
         <hnev>Veres Martin</hnev>
         <szulev>2006</szulev>
