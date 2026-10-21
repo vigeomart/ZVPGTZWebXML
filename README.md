@@ -1,4 +1,6 @@
 # ZVPGTZWebXML
 WebXML
-Neptun kód: ZVPGTZ
-Miskolci Egyetem
+
+Neptun kód: **ZVPGTZ**
+
+_**Miskolci Egyetem GÉIK**_
