@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ZVPGTZ_vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZVPGTZ_XMLSchema.xsd">
+    <Etterem ekod="1">
+        <Nev>Macók</Nev>
+        <Cim>
+            <Varos>Eger</Varos>
+            <Utca>Vár utca</Utca>
+            <Házszám>1.</Házszám>
+        </Cim>
+        <Csillag>5</Csillag>
+    </Etterem>
+    
+    <Foszakacs fkod="1" f_e="1">
+        <Nev>Kis Pista</Nev>
+        <Eletkor>22</Eletkor>
+        <Vegzettseg>mesterszakács</Vegzettseg>
+    </Foszakacs>
+
+    <Szakacs szkod="1" sz_e="1">
+        <Nev>Kis Pista</Nev>
+        <Reszleg>Konyha</Reszleg>
+        <Vegzettseg>tanuló</Vegzettseg>
+    </Szakacs>
+
+    <Gyakornok gykod="1" gy_e="1">
+        <Nev>Kis Pista</Nev>
+        <Gyakorlat>
+            <Kezdete>2025-01-21</Kezdete>
+            <Időtartama>30</Időtartama>
+        </Gyakorlat>
+        <Muszak>délelőtt</Muszak>
+    </Gyakornok>
+
+    <Vendeg vkod="1">
+        <Nev>Veres Martin</Nev>
+        <Cim>
+            <Varos>Tatabánya</Varos>
+            <Utca>Mihály utca</Utca>
+            <Házszám>1.</Házszám>
+        </Cim>
+        <Eletkor>21</Eletkor>
+    </Vendeg>
+
+    <Rendeles vkod="1" v_rkod = "1" >
+        <Összeg>20000</Összeg>
+        <Étel>steak</Étel>
+    </Rendeles>
+</ZVPGTZ_vendeglatas>

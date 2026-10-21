@@ -1,0 +1,94 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="ZVPGTZ_vendeglatas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Etterem" type="EtteremTipus"/>
+                <xs:element name="Foszakacs" type="FoszakacsTipus"/>
+                <xs:element name="Szakacs" type="SzakacsTipus"/>
+                <xs:element name="Gyakornok" type="GyakornokTipus"/>
+                <xs:element name="Vendeg" type="VendegTipus"/>
+                <xs:element name="Rendeles" type="RendelesTipus"/>
+            </xs:sequence>
+            <xs:attribute name="ekod" type="xs:integer"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="EtteremTipus">
+        <xs:sequence>
+            <xs:element name="Nev" type="xs:string"/>
+            <xs:element name="Cim" type="CimTipus"/>
+            <xs:element name="Csillag" type="xs:integer"/>
+        </xs:sequence>
+        <xs:attribute name="ekod" type="xs:integer"/>
+    </xs:complexType>
+
+    <xs:complexType name="CimTipus">
+        <xs:sequence>
+            <xs:element name="Varos" type="xs:string"/>
+            <xs:element name="Utca" type="xs:string"/>
+            <xs:element name="Házszám" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="FoszakacsTipus">
+        <xs:sequence>
+            <xs:element name="Nev" type="xs:string"/>
+            <xs:element name="Eletkor" type="xs:integer"/>
+            <xs:element name="Vegzettseg" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="fkod" type="xs:integer"/>
+        <xs:attribute name="f_e" type="xs:integer"/>
+    </xs:complexType>
+
+    <xs:complexType name="SzakacsTipus">
+        <xs:sequence>
+            <xs:element name="Nev" type="xs:string"/>
+            <xs:element name="Reszleg" type="xs:string"/>
+            <xs:element name="Vegzettseg" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="szkod" type="xs:integer"/>
+        <xs:attribute name="sz_e" type="xs:integer"/>
+    </xs:complexType>
+
+    <xs:complexType name="GyakornokTipus">
+        <xs:sequence>
+            <xs:element name="Nev" type="xs:string"/>
+            <xs:element name="Gyakorlat" type="GyakorlatTipus"/>
+            <xs:element name="Muszak" type="MuszakTipus"/>
+        </xs:sequence>
+        <xs:attribute name="gykod" type="xs:integer"/>
+        <xs:attribute name="gy_e" type="xs:integer"/>
+    </xs:complexType>
+
+    <xs:complexType name="GyakorlatTipus">
+        <xs:sequence>
+            <xs:element name="Kezdete" type="xs:date"/>
+            <xs:element name="Időtartama" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:simpleType name="MuszakTipus">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="délelőtt"/>
+            <xs:enumeration value="délután"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="VendegTipus">
+        <xs:sequence>
+            <xs:element name="Nev" type="xs:string"/>
+            <xs:element name="Cim" type="CimTipus"/>
+            <xs:element name="Eletkor" type="xs:integer"/>
+        </xs:sequence>
+        <xs:attribute name="vkod" type="xs:int"/>
+    </xs:complexType>
+
+    <xs:complexType name="RendelesTipus">
+        <xs:sequence>
+            <xs:element name="Összeg" type="xs:integer"/>
+            <xs:element name="Étel" type="xs:string"/>
+        </xs:sequence>
+        <xs:attribute name="vkod" type="xs:integer"/>
+        <xs:attribute name="v_rkod" type="xs:integer"/>
+    </xs:complexType>
+</xs:schema>
