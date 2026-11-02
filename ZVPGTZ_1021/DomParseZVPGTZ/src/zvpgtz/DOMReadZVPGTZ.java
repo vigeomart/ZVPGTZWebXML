@@ -1,56 +1,68 @@
 package zvpgtz;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
-import java.io.File;
-import java.io.IOException;
+
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.xml.sax.SAXException;
 
 public class DOMReadZVPGTZ {
-     void main() throws ParserConfigurationException, IOException, SAXException {
-         File xmlFile = null;
-         try {
-            xmlFile = new File("ZVPGTZ_orarend.xml");
-        }catch (Exception e){
-            System.out.println(e.getMessage());
-        }
+    private File xmFile = null;
 
+    public void readFromXML(String fileLocation){
+        xmFile = new File(fileLocation);
+
+        if (!xmFile.exists()) {
+            return;
+        }
+    }
+
+    public Element getRootElement()  {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
-
-        DocumentBuilder dBuilder = factory.newDocumentBuilder();
-
-        Document doc = dBuilder.parse(xmlFile);
-
-        doc.getDocumentElement().normalize();
-
-        System.out.println("Gyökér elem:" + doc.getDocumentElement().getNodeName());
-
-        NodeList nList = doc.getElementsByTagName("ora");
-
-        System.out.println(nList.getLength());
-
-        for (int i = 0; i < nList.getLength() ; i++) {
-            Node nNode = nList.item(i);
-
-            System.out.println("Aktuális elem: " + nNode.getNodeName());
-
-            if (nNode.getNodeType() == Node.ELEMENT_NODE){
-                Element elem = (Element) nNode;
-
-                String id = elem.getAttribute("name");
-
-                String tipus = elem.getAttribute("tipus");
-
-
-            }
-
+        DocumentBuilder builder = null;
+        Document doc = null;
+        try {
+             builder = factory.newDocumentBuilder();
+             doc = builder.parse(xmFile);
+        } catch (ParserConfigurationException | SAXException | IOException e) {
+            e.printStackTrace();
         }
+        return doc.getDocumentElement();
+    }
 
+    public void printElement(Element element, int depth) {
+      StringBuilder line = new StringBuilder("  ".repeat(depth)).append(element.getTagName());
+      NamedNodeMap attrs = element.getAttributes();
+      for (int i = 0; i < attrs.getLength(); i++) {
+        line.append(" @").append(attrs.item(i).getNodeName())
+            .append('=').append(attrs.item(i).getNodeValue());
+      }
+      List<Element> children = childElements(element);
+      if (children.isEmpty()) {
+        line.append(" = ").append(element.getTextContent().strip());
+      }
+      System.out.println(line);
+      for (Element child : children) {
+        printElement(child, depth + 1);
+      }
+    }
+
+    public static List<Element> childElements(Element parent) {
+      List<Element> result = new ArrayList<>();
+      for (Node n = parent.getFirstChild(); n != null; n = n.getNextSibling()) {
+        if (n.getNodeType() == Node.ELEMENT_NODE) {
+          result.add((Element) n);
+        }
+      }
+      return result;
     }
 }

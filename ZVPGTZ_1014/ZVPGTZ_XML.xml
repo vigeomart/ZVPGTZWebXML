@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ZVPGTZ_vendeglatas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ZVPGTZ_XMLSchema.xsd">
+<ZVPGTZ_vendeglatas>
     <Etterem ekod="1">
         <Nev>Macók</Nev>
         <Cim>
@@ -9,7 +9,6 @@
         </Cim>
         <Csillag>5</Csillag>
     </Etterem>
-    
     <Foszakacs fkod="1" f_e="1">
         <Nev>Kis Pista</Nev>
         <Eletkor>22</Eletkor>
