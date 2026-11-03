@@ -16,26 +16,34 @@ import org.w3c.dom.Node;
 import org.xml.sax.SAXException;
 
 public class DOMReadZVPGTZ {
-    private File xmFile = null;
+    private File xmlFile = null;
+    private Document doc = null;
+
+    public Document getDocument(){
+        return this.doc;
+    }
 
     public void readFromXML(String fileLocation){
-        xmFile = new File(fileLocation);
+        xmlFile = new File(fileLocation);
 
-        if (!xmFile.exists()) {
+        if (!xmlFile.exists()) {
             return;
         }
     }
 
-    public Element getRootElement()  {
+    public void buildDocument(){
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = null;
-        Document doc = null;
         try {
              builder = factory.newDocumentBuilder();
-             doc = builder.parse(xmFile);
+             doc = builder.parse(xmlFile);
         } catch (ParserConfigurationException | SAXException | IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public Element getRootElement()  {
+        buildDocument();
         return doc.getDocumentElement();
     }
 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ZVPGTZ_vendeglatas>
+    <Etterem ekod="1">
+        <Nev>Macók</Nev>
+        <Cim>
+            <Varos>Eger</Varos>
+            <Utca>Vár utca</Utca>
+            <Házszám>1.</Házszám>
+        </Cim>
+        <Csillag>5</Csillag>
+    </Etterem>
+    <Foszakacs f_e="1" fkod="1">
+        <Nev>Kis Pista</Nev>
+        <Eletkor>22</Eletkor>
+        <Vegzettseg>mesterszakács</Vegzettseg>
+    </Foszakacs>
+
+    <Szakacs sz_e="1" szkod="1">
+        <Nev>Kis Pista</Nev>
+        <Reszleg>Konyha</Reszleg>
+        <Vegzettseg>tanuló</Vegzettseg>
+    </Szakacs>
+
+    <Gyakornok gy_e="e3" gykod="1">
+        <Nev>Kis Pista</Nev>
+        <Gyakorlat>
+            <Kezdete>2025-01-21</Kezdete>
+            <Időtartama>30</Időtartama>
+        </Gyakorlat>
+        <Muszak>délelőtt</Muszak>
+    </Gyakornok>
+
+    <Vendeg vkod="1">
+        <Nev>Kis BÉla</Nev>
+        <Cim>
+            <Varos>Tatabánya</Varos>
+            <Utca>Mihály utca</Utca>
+            <Házszám>1.</Házszám>
+        </Cim>
+        <Eletkor>25</Eletkor>
+    </Vendeg>
+</ZVPGTZ_vendeglatas>

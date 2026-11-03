@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- <!DOCTYPE orarend SYSTEM "../ZVPGTZ_0930/ZVPGTZ_orarend.dtd"> 
-ez pedig a dtd sémának a validáló kódja 
+<!-- <!DOCTYPE orarend SYSTEM "../ZVPGTZ_0930/ZVPGTZ_orarend.dtd">
+ez pedig a dtd sémának a validáló kódja
 -->
 
 <orarend xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="../ZVPGTZ_1007/ZVPGTZ_orarend.xsd">
@@ -40,7 +40,7 @@ ez pedig a dtd sémának a validáló kódja
         <oktato>Kunné Dr. Tamás Judit</oktato>
         <szak>Programtervező informatikus</szak>
     </ora>
-    
+
     <ora id="GEIAK130-B2-01" tipus="gyakorlat">
         <targy>Mesterséges intelligencia alapok</targy>
         <ido>
