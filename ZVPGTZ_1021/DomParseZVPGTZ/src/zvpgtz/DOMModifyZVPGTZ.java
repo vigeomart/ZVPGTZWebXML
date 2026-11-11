@@ -35,7 +35,7 @@ public class DOMModifyZVPGTZ {
             if ("1".equals(vendeg.getAttribute("vkod"))) {
                 NodeList nevList = vendeg.getElementsByTagName("Nev");
                 if (nevList.getLength() > 0) {
-                    nevList.item(0).setTextContent("Kis BÉla");
+                    nevList.item(0).setTextContent("Kis Béla");
                 }
                 NodeList eletkorList = vendeg.getElementsByTagName("Eletkor");
                 if (eletkorList.getLength() > 0) {

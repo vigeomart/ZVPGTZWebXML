@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ZVPGTZ_vendeglatas>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ZVPGTZ_vendeglatas>
     <Etterem ekod="1">
         <Nev>Macók</Nev>
         <Cim>
@@ -18,7 +17,13 @@
     <Szakacs sz_e="1" szkod="1">
         <Nev>Kis Pista</Nev>
         <Reszleg>Konyha</Reszleg>
-        <Vegzettseg>tanuló</Vegzettseg>
+        <Vegzettseg>technikum</Vegzettseg>
+    </Szakacs>
+
+    <Szakacs sz_e="2" szkod="2">
+        <Nev>Tolvaj Ferenc</Nev>
+        <Reszleg>Konyha</Reszleg>
+        <Vegzettseg>szakközépiskola</Vegzettseg>
     </Szakacs>
 
     <Gyakornok gy_e="e3" gykod="1">
@@ -30,8 +35,17 @@
         <Muszak>délelőtt</Muszak>
     </Gyakornok>
 
+    <Gyakornok gy_e="e3" gykod="1">
+        <Nev>Veres István</Nev>
+        <Gyakorlat>
+            <Kezdete>2025-01-21</Kezdete>
+            <Időtartama>30</Időtartama>
+        </Gyakorlat>
+        <Muszak>délután</Muszak>
+    </Gyakornok>
+
     <Vendeg vkod="1">
-        <Nev>Kis BÉla</Nev>
+        <Nev>Kis Béla</Nev>
         <Cim>
             <Varos>Tatabánya</Varos>
             <Utca>Mihály utca</Utca>
