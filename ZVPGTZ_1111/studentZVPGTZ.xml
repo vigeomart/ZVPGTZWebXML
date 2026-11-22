@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hallgato xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../studentZVPGTZ.xsd">
+    <student id="01">
+        <keresztnev>Martin</keresztnev>
+        <vezeteknev>Veres</vezeteknev>
+        <foglalkozas>Programozo</foglalkozas>
+    </student>
+    <student id="02">
+        <keresztnev>Kis</keresztnev>
+        <vezeteknev>Laszlo</vezeteknev>
+        <foglalkozas>Frontend Developer</foglalkozas>
+    </student>
+    <student id="03">
+        <keresztnev>Nagy</keresztnev>
+        <vezeteknev>Balint</vezeteknev>
+        <foglalkozas>Backend Developer</foglalkozas>
+    </student>
+</hallgato>
