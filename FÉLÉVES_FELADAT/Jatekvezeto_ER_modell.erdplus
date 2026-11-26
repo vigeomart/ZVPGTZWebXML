@@ -418,8 +418,8 @@
         "parentId": "ccc704c7-03df-4b78-ae1e-14c29b80b814",
         "type": "Attribute",
         "position": {
-          "x": 184.5576224280473,
-          "y": 90.48537638760274
+          "x": -168.7730889309115,
+          "y": 94.12796104078785
         },
         "data": {
           "label": "B_ID",
@@ -441,8 +441,8 @@
         "parentId": "ccc704c7-03df-4b78-ae1e-14c29b80b814",
         "type": "Attribute",
         "position": {
-          "x": -43.18726421808003,
-          "y": 87.67136898721327
+          "x": 47.87735211154859,
+          "y": 93.74234340918849
         },
         "data": {
           "label": "Telefonszám",
@@ -464,8 +464,8 @@
         "parentId": "ccc704c7-03df-4b78-ae1e-14c29b80b814",
         "type": "Attribute",
         "position": {
-          "x": 286.78743113880654,
-          "y": 90.6573337419432
+          "x": 295.2867953295719,
+          "y": 94.29991839512832
         },
         "data": {
           "label": "Nyitvatartás",
@@ -487,8 +487,8 @@
         "parentId": "e62a50e6-faa2-4496-b63a-eba524b39c51",
         "type": "Attribute",
         "position": {
-          "x": -105.00000000000004,
-          "y": 80.00000000000011
+          "x": -80.71610231209911,
+          "y": 73.92902557802489
         },
         "data": {
           "label": "Mettől",
@@ -508,8 +508,8 @@
         "parentId": "e62a50e6-faa2-4496-b63a-eba524b39c51",
         "type": "Attribute",
         "position": {
-          "x": 51.24621202458747,
-          "y": 80.50378797541259
+          "x": 77.9584994812785,
+          "y": 73.21861866904231
         },
         "data": {
           "label": "Meddig",
@@ -549,8 +549,8 @@
         "parentId": "8909947f-1271-4c19-881d-b37cc77f1721",
         "type": "Attribute",
         "position": {
-          "x": -10.183648550163468,
-          "y": 98.99123577784925
+          "x": -14.778441970151604,
+          "y": 101.2886324878433
         },
         "data": {
           "label": "Márka",
@@ -570,8 +570,8 @@
         "parentId": "8909947f-1271-4c19-881d-b37cc77f1721",
         "type": "Attribute",
         "position": {
-          "x": -124.49738813739953,
-          "y": 102.10745499517179
+          "x": -126.7947848473936,
+          "y": 103.25615335016892
         },
         "data": {
           "label": "Típus",
@@ -591,8 +591,8 @@
         "parentId": "8909947f-1271-4c19-881d-b37cc77f1721",
         "type": "Attribute",
         "position": {
-          "x": 93.457612537606,
-          "y": 97.22010733786507
+          "x": 91.16021582761192,
+          "y": 102.96359911285026
         },
         "data": {
           "label": "Autó_ID",
@@ -614,8 +614,8 @@
         "parentId": "8909947f-1271-4c19-881d-b37cc77f1721",
         "type": "Attribute",
         "position": {
-          "x": 193.43064265765088,
-          "y": 95.5632931430032
+          "x": 199.17413443263607,
+          "y": 103.60418162798237
         },
         "data": {
           "label": "Üzemanyagtípus",
@@ -688,8 +688,8 @@
         "id": "aa1c9968-cce7-4fdc-90a4-047bad58f59b",
         "type": "Relationship",
         "position": {
-          "x": -1560.670380766758,
-          "y": -593.077379748511
+          "x": -1532.5681610563809,
+          "y": -629.3144525329446
         },
         "data": {
           "label": "Lakik",
@@ -805,14 +805,14 @@
         "id": "ae459857-446b-4f10-8059-46e08b30a3ba",
         "type": "Relationship",
         "position": {
-          "x": -517.254370955996,
-          "y": -939.8417784471516
+          "x": -512.9525052119485,
+          "y": -825.1253586058854
         },
         "data": {
-          "label": "Kié",
+          "label": "Autó_JV",
           "sourceEntityDetails": {
             "id": "8909947f-1271-4c19-881d-b37cc77f1721",
-            "maxCardinality": "Many"
+            "maxCardinality": "One"
           },
           "targetEntityDetails": {
             "id": "652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77",
@@ -833,8 +833,8 @@
         "parentId": "ccc704c7-03df-4b78-ae1e-14c29b80b814",
         "type": "Attribute",
         "position": {
-          "x": 75.27432585124355,
-          "y": 88.63980559777247
+          "x": 156.6253831057117,
+          "y": 94.71078001974769
         },
         "data": {
           "label": "Elnök",
@@ -850,131 +850,85 @@
         "dragging": false
       },
       {
-        "id": "9c260dc8-c08e-4c16-9231-4d042e23deec",
-        "parentId": "ae459857-446b-4f10-8059-46e08b30a3ba",
+        "id": "53acd7e3-9919-41f7-b659-e7af7eed9f99",
+        "parentId": "652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77",
         "type": "Attribute",
         "position": {
-          "x": -81.42464080276136,
-          "y": 80.24288431683453
-        },
-        "data": {
-          "label": "BiztosításNév",
-          "types": [],
-          "isSelected": false,
-          "isConnectable": false
-        },
-        "measured": {
-          "width": 100,
-          "height": 50
-        },
-        "selected": false,
-        "dragging": false
-      },
-      {
-        "id": "4178e740-98bf-45b9-9a75-8416c11167df",
-        "parentId": "ae459857-446b-4f10-8059-46e08b30a3ba",
-        "type": "Attribute",
-        "position": {
-          "x": 24.87379284980119,
-          "y": 88.41662338986214
-        },
-        "data": {
-          "label": "Időtartam",
-          "types": {
-            "Composite": true
-          },
-          "isSelected": false,
-          "isConnectable": false
-        },
-        "measured": {
-          "width": 100,
-          "height": 50
-        },
-        "selected": false,
-        "dragging": false
-      },
-      {
-        "id": "eed14a16-f713-4ae1-b90f-fa5764123d62",
-        "parentId": "4178e740-98bf-45b9-9a75-8416c11167df",
-        "type": "Attribute",
-        "position": {
-          "x": -59.33195179214937,
-          "y": 77.85913011350965
-        },
-        "data": {
-          "label": "Mettől",
-          "types": [],
-          "isSelected": false,
-          "isConnectable": false
-        },
-        "measured": {
-          "width": 100,
-          "height": 50
-        },
-        "selected": false,
-        "dragging": false
-      },
-      {
-        "id": "13509370-e34a-42fa-8316-48e2b68f951a",
-        "parentId": "4178e740-98bf-45b9-9a75-8416c11167df",
-        "type": "Attribute",
-        "position": {
-          "x": 82.02745160388571,
-          "y": 76.51530482431684
-        },
-        "data": {
-          "label": "Meddig",
-          "types": [],
-          "isSelected": false,
-          "isConnectable": false
-        },
-        "measured": {
-          "width": 100,
-          "height": 50
-        },
-        "selected": false,
-        "dragging": false
-      },
-      {
-        "id": "8b739a03-77b4-4d88-89ca-bb1e00a12a22",
-        "type": "Relationship",
-        "position": {
-          "x": -708.9962284945084,
-          "y": -578.4511656027817
-        },
-        "data": {
-          "label": "Működik",
-          "sourceEntityDetails": {
-            "id": "ccc704c7-03df-4b78-ae1e-14c29b80b814",
-            "maxCardinality": "One"
-          },
-          "targetEntityDetails": {
-            "id": "652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77",
-            "maxCardinality": "Many"
-          },
-          "isSelected": false,
-          "isConnectable": true
-        },
-        "measured": {
-          "width": 100,
-          "height": 50
-        },
-        "selected": false,
-        "dragging": false
-      },
-      {
-        "id": "b4c50755-6d1d-4ecc-83c6-4bbfc07098b8",
-        "parentId": "8b739a03-77b4-4d88-89ca-bb1e00a12a22",
-        "type": "Attribute",
-        "position": {
-          "x": 149.2833235271736,
-          "y": -15.539602402824698
+          "x": 139.35559506220727,
+          "y": 152.9886961702964
         },
         "data": {
           "label": "Keret",
           "types": [],
           "isSelected": false,
+          "isConnectable": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "84ea5429-1555-4272-95e7-fb7ae4b96d28",
+        "type": "Relationship",
+        "position": {
+          "x": -678.3964229644531,
+          "y": -653.5215590237868
+        },
+        "data": {
+          "label": "Működik",
+          "sourceEntityDetails": {
+            "id": "652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77",
+            "maxCardinality": "Many"
+          },
+          "targetEntityDetails": {
+            "id": "ccc704c7-03df-4b78-ae1e-14c29b80b814",
+            "maxCardinality": "One"
+          },
+          "isSelected": false,
           "isConnectable": true
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "f5369a9b-ba23-4ed2-9cce-68e965836f58",
+        "parentId": "ccc704c7-03df-4b78-ae1e-14c29b80b814",
+        "type": "Attribute",
+        "position": {
+          "x": -60.70974421975245,
+          "y": 92.8580511560495
+        },
+        "data": {
+          "label": "Név",
+          "types": [],
+          "isSelected": false
+        },
+        "measured": {
+          "width": 100,
+          "height": 50
+        },
+        "selected": false,
+        "dragging": false
+      },
+      {
+        "id": "d6709075-dd36-4605-9eb9-f8c12ac50b5e",
+        "parentId": "8909947f-1271-4c19-881d-b37cc77f1721",
+        "type": "Attribute",
+        "position": {
+          "x": -238.9292578393833,
+          "y": 103.85130164500299
+        },
+        "data": {
+          "label": "Norma",
+          "types": [],
+          "isSelected": false
         },
         "measured": {
           "width": 100,
@@ -1240,7 +1194,7 @@
         "target": "8909947f-1271-4c19-881d-b37cc77f1721",
         "data": {
           "id": "ae459857-446b-4f10-8059-46e08b30a3ba->8909947f-1271-4c19-881d-b37cc77f1721",
-          "maxCardinality": "Many"
+          "maxCardinality": "One"
         }
       },
       {
@@ -1260,60 +1214,48 @@
         "target": "ccab7150-14ce-4940-bdc7-ae7d92b8204f"
       },
       {
-        "id": "2d31e466-f5f0-4667-a695-183f50c5b488",
+        "id": "69179e5c-a8c6-4824-8da1-72f6c64214ea",
         "type": "Attribute",
-        "source": "ae459857-446b-4f10-8059-46e08b30a3ba",
-        "target": "9c260dc8-c08e-4c16-9231-4d042e23deec"
+        "source": "652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77",
+        "target": "53acd7e3-9919-41f7-b659-e7af7eed9f99"
       },
       {
-        "id": "e848da97-40c2-4175-975e-54b1ba899475",
-        "type": "Attribute",
-        "source": "ae459857-446b-4f10-8059-46e08b30a3ba",
-        "target": "4178e740-98bf-45b9-9a75-8416c11167df"
-      },
-      {
-        "id": "bb56404b-852b-4d0b-a171-4d8e588391c2",
-        "type": "Attribute",
-        "source": "4178e740-98bf-45b9-9a75-8416c11167df",
-        "target": "eed14a16-f713-4ae1-b90f-fa5764123d62"
-      },
-      {
-        "id": "496f2310-e81e-4214-a7c3-dcf68fef3ac5",
-        "type": "Attribute",
-        "source": "4178e740-98bf-45b9-9a75-8416c11167df",
-        "target": "13509370-e34a-42fa-8316-48e2b68f951a"
-      },
-      {
-        "id": "8b739a03-77b4-4d88-89ca-bb1e00a12a22->ccc704c7-03df-4b78-ae1e-14c29b80b814;ccc704c7-03df-4b78-ae1e-14c29b80b814->652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77",
+        "id": "84ea5429-1555-4272-95e7-fb7ae4b96d28->652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77;652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77->ccc704c7-03df-4b78-ae1e-14c29b80b814",
         "type": "Relationship",
-        "source": "8b739a03-77b4-4d88-89ca-bb1e00a12a22",
-        "target": "ccc704c7-03df-4b78-ae1e-14c29b80b814",
-        "data": {
-          "id": "8b739a03-77b4-4d88-89ca-bb1e00a12a22->ccc704c7-03df-4b78-ae1e-14c29b80b814",
-          "maxCardinality": "One"
-        }
-      },
-      {
-        "id": "8b739a03-77b4-4d88-89ca-bb1e00a12a22->652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77;ccc704c7-03df-4b78-ae1e-14c29b80b814->652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77",
-        "type": "Relationship",
-        "source": "8b739a03-77b4-4d88-89ca-bb1e00a12a22",
+        "source": "84ea5429-1555-4272-95e7-fb7ae4b96d28",
         "target": "652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77",
         "data": {
-          "id": "8b739a03-77b4-4d88-89ca-bb1e00a12a22->652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77",
+          "id": "84ea5429-1555-4272-95e7-fb7ae4b96d28->652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77",
           "maxCardinality": "Many"
         }
       },
       {
-        "id": "4b20f1ad-0036-4631-9a9d-930ad30fd211",
+        "id": "84ea5429-1555-4272-95e7-fb7ae4b96d28->ccc704c7-03df-4b78-ae1e-14c29b80b814;652dbc10-8e0b-4a7e-bc0b-9737c6ae9f77->ccc704c7-03df-4b78-ae1e-14c29b80b814",
+        "type": "Relationship",
+        "source": "84ea5429-1555-4272-95e7-fb7ae4b96d28",
+        "target": "ccc704c7-03df-4b78-ae1e-14c29b80b814",
+        "data": {
+          "id": "84ea5429-1555-4272-95e7-fb7ae4b96d28->ccc704c7-03df-4b78-ae1e-14c29b80b814",
+          "maxCardinality": "One"
+        }
+      },
+      {
+        "id": "f0406665-4d70-4056-9e1d-81d0ed49dc91",
         "type": "Attribute",
-        "source": "8b739a03-77b4-4d88-89ca-bb1e00a12a22",
-        "target": "b4c50755-6d1d-4ecc-83c6-4bbfc07098b8"
+        "source": "ccc704c7-03df-4b78-ae1e-14c29b80b814",
+        "target": "f5369a9b-ba23-4ed2-9cce-68e965836f58"
+      },
+      {
+        "id": "595c9e25-9d1a-4cac-b2e1-ad8c05871675",
+        "type": "Attribute",
+        "source": "8909947f-1271-4c19-881d-b37cc77f1721",
+        "target": "d6709075-dd36-4605-9eb9-f8c12ac50b5e"
       }
     ],
     "viewport": {
-      "x": 1294.963964962761,
-      "y": 718.9508542843303,
-      "zoom": 0.5285090202806894
+      "x": 1029.0728335122058,
+      "y": 915.7527829890226,
+      "zoom": 0.870550563296124
     }
   },
   "name": "Jatekvezeto_ER_modell",
@@ -1324,5 +1266,5 @@
     "id": 504344
   },
   "id": 744681,
-  "updatedAtTimestamp": 1795632548
+  "updatedAtTimestamp": 1795696390
 }
